@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const todoList = () => {
   const all = [];
   const add = (todoItem) => {
@@ -65,3 +66,6 @@ const todoList = () => {
     tomorrow,
   };
 };
+
+
+module.exports = todoList;
